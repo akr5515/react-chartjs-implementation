@@ -382,7 +382,7 @@ const App = () => {
       >
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography sx={{ fontSize: "18px", fontWeight: "400" }}>
-            Number of Translations
+            Area Chart
           </Typography>
           <FormControl sx={{ marginLeft: "-6px" }}>
             {/* custom select start */}
@@ -447,7 +447,7 @@ const App = () => {
         >
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
             <Typography sx={{ fontSize: "15px" }}>
-              Languages Used for Translation From
+              Countries color label
             </Typography>
             <FormControl sx={{ marginLeft: "-6px" }}>
               {/* custom select start */}
@@ -561,7 +561,7 @@ const App = () => {
         >
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
             <Typography sx={{ fontSize: "15px" }}>
-              Languages Used for Translation To
+              Countries label
             </Typography>
             <FormControl sx={{ marginLeft: "-6px" }}>
               {/* custom select start */}
@@ -624,18 +624,18 @@ const App = () => {
                   <Box sx={{ display: "flex", gap: "10px" }}>
                     <Box
                       sx={{
-                        height: "8px",
-                        width: "8px",
+                        height: "18px",
+                        width: "18px",
                         marginTop: "5px",
                         backgroundColor: `${translation.color}`,
                       }}
                     />
-                    <Typography sx={{ fontSize: "9px", marginTop: "2px" }}>
+                    <Typography sx={{ fontSize: "19px", marginTop: "2px" }}>
                       {translation.language}
                     </Typography>
                   </Box>
                   <Box>
-                    <Typography sx={{ fontSize: "10px", weight: "500" }}>
+                    <Typography sx={{ fontSize: "20px", weight: "500" }}>
                       {translation.value}
                     </Typography>
                   </Box>

@@ -69,32 +69,32 @@ export const labelsDate = [
 
 export const translationLanguageData = [
   {
-    language: "Japanese",
+    language: "Bangladesh",
     value: 450,
     color: "#428BFF",
   },
   {
-    language: "English",
+    language: "USA",
     value: 345,
     color: "#69B6F8",
   },
   {
-    language: "Spanish",
+    language: "Canada",
     value: 200,
     color: "#B27EEF",
   },
   {
-    language: "French",
+    language: "Germany",
     value: 75,
     color: "#FF9964",
   },
   {
-    language: "Russian",
+    language: "Finland",
     value: 50,
     color: "#5BDFB4",
   },
   {
-    language: "Others",
+    language: "Italy",
     value: 30,
     color: "#D9DBE6",
   },
